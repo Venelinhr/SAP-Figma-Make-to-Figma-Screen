@@ -1,0 +1,8 @@
+{
+  "name": "sap-figma-make-to-figma-screen",
+  "version": "1.0.0",
+  "description": "Paste a Figma Make link in a Figma plugin and get SAP Web UI Kit screens in Figma.",
+  "scripts": { "build": "node make-figma/build.js", "start": "node make-figma/ctl.js start", "test": "node --test test/make2tree.test.js" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}

@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+make-figma/.pair.json
+make-figma/.bridge.pid
+make-figma/bridge.log
+make-figma/out/

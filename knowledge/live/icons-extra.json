@@ -1,0 +1,631 @@
+{
+  "_doc": "SAP icons that the SAP Web UI Kit's Iconography page (61 icons, knowledge/live/kit.json) does not have. Source: the full SAP icon set in the 'v1 Archived Horizon Web UI Kit' library (visible to file L9bomZ4CKDmBGQfGM9C61z via search_design_system, 2026-09-26). Keys import with figma.importComponentByKeyAsync. Add more with: search_design_system(query:'<name>', includeLibraryKeys:[library]).",
+  "library": "v1 Archived Horizon Web UI Kit",
+  "libraryKey": "lk-bcf5c884fb86f0cc723897bafd66bf28106bec58e2cb192516aa84d570ac04e12816371be8cf9e253d53f9d0e0af5a1b15d7f17a4a48083253aa06d8bc35f496",
+  "icons": {
+    "suitcase": {
+      "key": "aab233a77becbdfc986a734c5451f5b976638855",
+      "desc": "travel, suitcase, business trip, possessions"
+    },
+    "meal": {
+      "key": "52c9186b136b0ff70196b57dd6cf5f0e17e848bf",
+      "desc": "meal, knife and fork, dinner, lunch"
+    },
+    "share-arrow": {
+      "key": "f186ab5dabe94fbbf9b8427f9fd41edddf104e2c",
+      "desc": "share, reshare, distribute, arrow (SAP 'share')"
+    },
+    "share-2": {
+      "key": "3e32bfc37d0c6c148ea9919015d02a7acf91d58c",
+      "desc": "share, distribute, share with connections"
+    },
+    "tag": {
+      "key": "af4ff91cd6e44b9c54a1560aa2bef561c8d8b0c9",
+      "desc": "tag, label, marker, indicator"
+    },
+    "flight": {
+      "key": "65ca2deb9dd0c4f7734d2269e7958fbe62b4a462",
+      "desc": "plane, trip, travel, flight"
+    },
+    "paper-plane": {
+      "key": "1af59a706bee8811d9439901ec3d4f54f118185a",
+      "desc": "send, paper plane"
+    },
+    "receipt": {
+      "key": "28664297b6ba462b297b4487f2fa5884d53a3a08",
+      "desc": "bill, receipt, proof of sale"
+    },
+    "travel-expense": {
+      "key": "00af06f46dafee9ba85ce133c4ce34d449eaee25",
+      "desc": "plane + money: trip expense, fee"
+    },
+    "travel-itinerary": {
+      "key": "303136e86aedf4da03db63f869e9a9262c9a89d7",
+      "desc": "itinerary, schedule, flight, drive"
+    },
+    "pushpin-on": {
+      "key": "a103a0ee9c45c6b54d5f799e82b1842236f2c79e",
+      "desc": "pin, pinned, keep on top (read live from gold 270:6722)"
+    },
+    "direction-arrows": {
+      "key": "d8df6bd3e7657212a65f733f39878d4e0a37cc2e",
+      "desc": "two-way arrows, range handle (read live from gold 270:6722)"
+    },
+    "media-forward": {
+      "key": "b200c671f28c62c7e4ead976aa02b5875f77d5fa",
+      "desc": "forward, media, fast — SAP has no lightning bolt: use for \"fastest\""
+    },
+    "thumb-up": {
+      "key": "5302ae09353d82f5221906eb454886085d60b9c3",
+      "desc": "thumbs, up, like, recommended, best"
+    },
+    "appointment": {
+      "key": "daa126a58adcf200ad368dea45f62f9354869ded",
+      "desc": "date picker, calendar, month, week, day, appointment"
+    },
+    "appointment-2": {
+      "key": "59c77280f7ba5dd27c9be54197f4a3c1a6089084",
+      "desc": "date picker, calendar, month, week, day, appointment"
+    },
+    "clear-filter": {
+      "key": "4aa15da40490cab8d9adfc1bc49b2563d92cda84",
+      "desc": "filter, organize, aggregate, data, clear, delete, remove"
+    },
+    "collaborate": {
+      "key": "6fbbd89b64a564009ed808582be38ed97bce95ad",
+      "desc": "group, team, people, colleagues, communication, collaborate"
+    },
+    "document-text": {
+      "key": "c9f9842dc2f5407b2a6d402d732fd97d272b591b",
+      "desc": "document, page, file, text"
+    },
+    "employee": {
+      "key": "59235558ebf2f0e8ff37377df50e59adb628bb5c",
+      "desc": "user, person, employee, member, operator, representative"
+    },
+    "history": {
+      "key": "02fb2cf833be737a93b92e670159c09f6562bd4b",
+      "desc": "time, clock, history, past, chronicle"
+    },
+    "inbox": {
+      "key": "9ddc5a9cd14cd52a3cfc7a86b041303ff9aca96e",
+      "desc": "inbox, in, arrow"
+    },
+    "lab": {
+      "key": "62e799788f16deee096f1cbac29e0aa216369a63",
+      "desc": "lab, chemicals, liquid, mixture, chemistry, science"
+    },
+    "machine": {
+      "key": "f36df85cb3f7012e479c2ad6db332725d3405124",
+      "desc": "machine, factory, production, supplier, technical"
+    },
+    "product": {
+      "key": "6b2655212b50d8dbf5d9ace87a1c7186942a28d5",
+      "desc": "product, commodity, goods, stock, merchandise, package"
+    },
+    "wrench": {
+      "key": "75f0fa42efe3014f303b55ca1b4f37552f592af1",
+      "desc": "wrench, control, configuration, settings, tool"
+    },
+    "action": {
+      "key": "ec04761fe0ef409cd2c849bd9b36cd7efd587f22",
+      "desc": "action"
+    },
+    "action-settings": {
+      "key": "6adc21afa984697a521fc38cbab0ce1b6b7a65a0",
+      "desc": "action-settings"
+    },
+    "activities": {
+      "key": "e859bd2a89044bc862395f231c56480f010984b8",
+      "desc": "activities"
+    },
+    "activity-items": {
+      "key": "d43484f6a95ae5f4d1440770e0e206cbbac8649a",
+      "desc": "activity-items"
+    },
+    "alert": {
+      "key": "eb3bd4c5ac42862ff893a79de78b30a849971cd6",
+      "desc": "alert"
+    },
+    "cart": {
+      "key": "db74471e7faf757526f4feb96955c3e6f4fd35e5",
+      "desc": "cart"
+    },
+    "chain-link": {
+      "key": "682e1603c1fceb97559d6c6d0ee4214cbacc6a88",
+      "desc": "chain-link"
+    },
+    "checklist": {
+      "key": "e7b1b735af33c10d632ba7ca774f7092cf6469e5",
+      "desc": "checklist"
+    },
+    "connected": {
+      "key": "59d95c5e88ec1821394bf7f97ef2d05887905af7",
+      "desc": "connected"
+    },
+    "email": {
+      "key": "c1c9af4531a172222ad9e82d8be82ac24d586bd9",
+      "desc": "email"
+    },
+    "journey-change": {
+      "key": "f2ce2ed700c8a2eb39a88f5989d94415dc5d4eb1",
+      "desc": "journey-change"
+    },
+    "lightbulb": {
+      "key": "dec35c62c117b8497e1eeb58bec9d9aedf8fbfa8",
+      "desc": "lightbulb"
+    },
+    "map": {
+      "key": "142bea39000b39f3f14b9f9ea34cac9bcb8f4da5",
+      "desc": "map"
+    },
+    "message-information": {
+      "key": "d88a73a5595dca9f92901fa907ef77823dbbf2c1",
+      "desc": "message-information"
+    },
+    "notes": {
+      "key": "917d901141df62140b533d0aa181cc209fad15a4",
+      "desc": "notes"
+    },
+    "person-placeholder": {
+      "key": "15f9f2047731a76b001f89d9362236e158402db3",
+      "desc": "person-placeholder"
+    },
+    "supplier": {
+      "key": "3f607cafdbd3a4f0019abc742dd76ddf1e40cbba",
+      "desc": "supplier"
+    },
+    "add-equipment": {
+      "key": "1f4a14dbf068b644d186ce1b8cc9da7d4b4577c5",
+      "desc": "add-equipment"
+    },
+    "add-favorite": {
+      "key": "867fbb4476887aac6fa1ba68b1052fdca15352e1",
+      "desc": "add-favorite"
+    },
+    "approvals": {
+      "key": "ab6631863273d066b4357b043424bfc579ea2128",
+      "desc": "approvals"
+    },
+    "arrow-bottom": {
+      "key": "7f7a18a9215964280486b04bc57180be86e5cf39",
+      "desc": "arrow-bottom"
+    },
+    "arrow-left": {
+      "key": "ec0c8e446916ae519cadb790abe804dea964cd27",
+      "desc": "arrow-left"
+    },
+    "arrow-right": {
+      "key": "8756392b35caeb7d872627d00630cc0d91b4ddd9",
+      "desc": "arrow-right"
+    },
+    "arrow-top": {
+      "key": "eb9b684a7dcccde614ad62fe6090053c725cc408",
+      "desc": "arrow-top"
+    },
+    "bar-chart": {
+      "key": "2c24c77886a783a4f95986436419ba2b331611a8",
+      "desc": "bar-chart"
+    },
+    "building": {
+      "key": "052c39ca20fe4c6ea9ec9056a4914cf9d258cf24",
+      "desc": "building"
+    },
+    "business-objects-experience": {
+      "key": "7a32fc4395ec573dadc9180e66bceecef379e54f",
+      "desc": "business-objects-experience"
+    },
+    "camera": {
+      "key": "3e633fef91ca16e153995f67ce0665ef93d4ab3c",
+      "desc": "camera"
+    },
+    "cause": {
+      "key": "6c6b87e67465d97711d0184d2f6adb92bd665057",
+      "desc": "cause"
+    },
+    "clear-all": {
+      "key": "56e97f4eeea1f057a2f7433c122e2801bd101405",
+      "desc": "clear-all"
+    },
+    "cloud": {
+      "key": "f48a652d69b2794b64fc8c272901cc18beea520e",
+      "desc": "cloud"
+    },
+    "collapse-all": {
+      "key": "e697908f969ea02c025e10ba3065ff8c38180166",
+      "desc": "collapse-all"
+    },
+    "combine": {
+      "key": "4ddf36c617a7a98add829543ba5ecee5c8a67e03",
+      "desc": "combine"
+    },
+    "comment": {
+      "key": "68ea95b83362f89331fa9a5e71281dcefeb3ff1a",
+      "desc": "comment"
+    },
+    "company-view": {
+      "key": "b343899648f4f43f18c3b68b63ed2dd8f74093af",
+      "desc": "company-view"
+    },
+    "compare": {
+      "key": "c26cecc5683920f1b636cbaff1faabca2651cd39",
+      "desc": "compare"
+    },
+    "create": {
+      "key": "b7c738f6c879ebea050f8b16901cf3bd0814dd8d",
+      "desc": "create"
+    },
+    "credit-card": {
+      "key": "4aead8dc5b204209378f75ba119752560f93ee70",
+      "desc": "credit-card"
+    },
+    "customer": {
+      "key": "573efa86c1c73396dbbefdc93702b3c8818bbf53",
+      "desc": "customer"
+    },
+    "decision": {
+      "key": "fb04a31c1c651e4e370790c71f206f7c458894e4",
+      "desc": "decision"
+    },
+    "discussion": {
+      "key": "b3b8fc4eccad2d1605aa51935e8e0f813f539bc0",
+      "desc": "discussion"
+    },
+    "display": {
+      "key": "0a89e92e1b8627aeed01d31ef0177e0e0c52d283",
+      "desc": "display"
+    },
+    "doc-attachment": {
+      "key": "2f6a78d99302dc0c9e9eb7f24cde38d4a8c4fb76",
+      "desc": "doc-attachment"
+    },
+    "donut-chart": {
+      "key": "c6f1650b74e343e28e6643d8c475b8c750e65fad",
+      "desc": "donut-chart"
+    },
+    "download-from-cloud": {
+      "key": "6699652571e28e314d3e0551e20e618aa6777f70",
+      "desc": "download-from-cloud"
+    },
+    "drill-down": {
+      "key": "879c7981330363cafdef863f45bd8b92e298f4eb",
+      "desc": "drill-down"
+    },
+    "drill-up": {
+      "key": "3c2b670e65ede765cb70fad6195da86fd16c1592",
+      "desc": "drill-up"
+    },
+    "e-care": {
+      "key": "4a7c963c092f4f6d08be63ff244232533c4fa86b",
+      "desc": "e-care"
+    },
+    "email-read": {
+      "key": "a97880a4bdbf7f29c6d48c9b45b0311af073b1ad",
+      "desc": "email-read"
+    },
+    "expand-all": {
+      "key": "f0542b7257120511aa92d7f6a6a51eb705151f7a",
+      "desc": "expand-all"
+    },
+    "expense-report": {
+      "key": "13aeeb8b5afae3dbcbb706745aa1fc0eefb11dc0",
+      "desc": "expense-report"
+    },
+    "factory": {
+      "key": "93457372a78c69fd0cd025ad5805806de7385b4a",
+      "desc": "factory"
+    },
+    "filter-analytics": {
+      "key": "d8a6056561efce57f13badd5212ab27f2bf59efe",
+      "desc": "filter-analytics"
+    },
+    "filter-fields": {
+      "key": "d03a515592be5b08e3cc156ba6cead730e050c1e",
+      "desc": "filter-fields"
+    },
+    "hide": {
+      "key": "c1fb4ee412827c2a4a98dbeae373fbf966cc0f4a",
+      "desc": "hide"
+    },
+    "hint": {
+      "key": "680a6bf9940fcd988903ba45b53ee2fc40489eb0",
+      "desc": "hint"
+    },
+    "inspect": {
+      "key": "e58e7884f9b11181af59a8bb7cd4c2106d5327e9",
+      "desc": "inspect"
+    },
+    "inspection": {
+      "key": "3f979be7d34ebc07db5bf34350e92ec611a56254",
+      "desc": "inspection"
+    },
+    "key": {
+      "key": "ad95c85e3768b1545bca2eb38f110f1a979efb8f",
+      "desc": "key"
+    },
+    "leads": {
+      "key": "1eb948d39829e78474fda32173ae9a22709c96d9",
+      "desc": "leads"
+    },
+    "line-chart": {
+      "key": "3e850a89b4cf682ccfa0200a52a0dd2e1e4746f9",
+      "desc": "line-chart"
+    },
+    "locate-me": {
+      "key": "0a441144b47ad02d56a6cd56a3b3b10bad6d8dde",
+      "desc": "locate-me"
+    },
+    "money-bills": {
+      "key": "55b82ee133f7da00fe3abbb45a49fe3c0c0d77db",
+      "desc": "money-bills"
+    },
+    "move": {
+      "key": "4ffd6e9d0f67df22de00f38675d610744c6294b6",
+      "desc": "move"
+    },
+    "open-folder": {
+      "key": "308a3735bb7d4145b2b0cf5ac41091abbd345dc8",
+      "desc": "open-folder"
+    },
+    "opportunities": {
+      "key": "449d60944d7fdb8ef6b7c79bd375618a112f4c80",
+      "desc": "opportunities"
+    },
+    "order-status": {
+      "key": "5799abc52c05957081aada58c2d52e32353c88bc",
+      "desc": "order-status"
+    },
+    "overview-chart": {
+      "key": "a42a844ec6cda92b96e4a3c426bc1eade0c889bf",
+      "desc": "overview-chart"
+    },
+    "paste": {
+      "key": "c505d7b9a8d43374dbe535f86d10de8d513d010e",
+      "desc": "paste"
+    },
+    "performance": {
+      "key": "84300729c3f191ed5102c596aad50fd96c0f3e3f",
+      "desc": "performance"
+    },
+    "phone": {
+      "key": "c696a74282c377188de742bb15791c1209f5c61e",
+      "desc": "phone"
+    },
+    "picture": {
+      "key": "ba4d9c2dc6ac8ae7068f73fd0275c27c7e1da16b",
+      "desc": "picture"
+    },
+    "pie-chart": {
+      "key": "49d3378a31ac7cc787f405eeedc2ecfb1991c2c4",
+      "desc": "pie-chart"
+    },
+    "post": {
+      "key": "552f122b1d2aae29adecd606f9dd737631a6c3b1",
+      "desc": "post"
+    },
+    "process": {
+      "key": "4c9e5ba8b766d0a010ccac90662d749dd2ad8c65",
+      "desc": "process"
+    },
+    "pushpin-off": {
+      "key": "93c06ac408d51989665d4e81d7d31a28f5cceb94",
+      "desc": "pushpin-off"
+    },
+    "quality-issue": {
+      "key": "d3a220b5bdac0627ad4c3e5087c032470ce567b5",
+      "desc": "quality-issue"
+    },
+    "redo": {
+      "key": "419e35b07a0d09f1cc2f1509983efb712db32592",
+      "desc": "redo"
+    },
+    "reset": {
+      "key": "b5cb05736ae67932d82130260a4f24f4c9a9b038",
+      "desc": "reset"
+    },
+    "sales-order": {
+      "key": "9043f13149d47d4f03bf70363d6b1c60e0eace8d",
+      "desc": "sales-order"
+    },
+    "save": {
+      "key": "925362fcab9094141855e8d04899a3bdba1e76e8",
+      "desc": "save"
+    },
+    "shipping-status": {
+      "key": "3989d42721fd40b78c89a9c1f34217a0d46ae121",
+      "desc": "shipping-status"
+    },
+    "show": {
+      "key": "f4d889dde94203c7d563db1cde8ec8ae695395bd",
+      "desc": "show"
+    },
+    "status-critical": {
+      "key": "a2113f8e204b5922a08b8849c31ed64d0065373f",
+      "desc": "status-critical"
+    },
+    "status-error": {
+      "key": "aad96d35f09e9d4b877d4d10bc3f9fa422405437",
+      "desc": "status-error"
+    },
+    "status-in-process": {
+      "key": "6fb5ccdd3e70bea563c5cbd0d929a33b7b4b6d37",
+      "desc": "status-in-process"
+    },
+    "status-inactive": {
+      "key": "364c38fd013b41024ca8f528eb04365d1eb42a17",
+      "desc": "status-inactive"
+    },
+    "status-negative": {
+      "key": "defdf2494577732bdb2732f119b358b593e70c77",
+      "desc": "status-negative"
+    },
+    "status-positive": {
+      "key": "759f7ad4cdf74b5c4995647e0876b3f3e989ba17",
+      "desc": "status-positive"
+    },
+    "synchronize": {
+      "key": "11185a03d96b3094a280553fa177deb1fecd90d8",
+      "desc": "synchronize"
+    },
+    "tags": {
+      "key": "cf8596281c7b3ae1d61bc54ee795953f2ebaf87d",
+      "desc": "tags"
+    },
+    "target-group": {
+      "key": "847c32d59c02b4ac50d319fbc4670330b5f75445",
+      "desc": "target-group"
+    },
+    "task": {
+      "key": "d3fa289eb22f060a856afefaf362dcfcecefa63b",
+      "desc": "task"
+    },
+    "technical-object": {
+      "key": "1b099cfad645e2a3d6af3f831b71bdfdab1c350b",
+      "desc": "technical-object"
+    },
+    "thumb-down": {
+      "key": "1e17b006124a58d1588b64733a4659eed2abcf17",
+      "desc": "thumb-down"
+    },
+    "time-entry-request": {
+      "key": "17f30bde76bae223acc4b4ea952e712cb4964899",
+      "desc": "time-entry-request"
+    },
+    "undo": {
+      "key": "9b66e5f9dd69e6ec9ca7d155fd2c0b6944936377",
+      "desc": "undo"
+    },
+    "unfavorite": {
+      "key": "c8cd8d03b1432b53d0acfa1281e35e4a6217a034",
+      "desc": "unfavorite"
+    },
+    "unlocked": {
+      "key": "acfa1d6423be07e2c3bd868c03425cd5bada87f8",
+      "desc": "unlocked"
+    },
+    "upload-to-cloud": {
+      "key": "f5e57025954749d7b105db22d6a43905b3f48707",
+      "desc": "upload-to-cloud"
+    },
+    "video": {
+      "key": "21e57af8c1497bf2f618c990f7a98ed2325c64e6",
+      "desc": "video"
+    },
+    "world": {
+      "key": "06fefdbe0253df67144f19920a730792ceb01d16",
+      "desc": "world"
+    },
+    "zoom-in": {
+      "key": "604266cfda60d4f36d5e9c7f015b2c4f5fb38574",
+      "desc": "zoom-in"
+    },
+    "zoom-out": {
+      "key": "43169b6c29989463ef589dbfca8e2c5042699fd2",
+      "desc": "zoom-out"
+    },
+    "add-activity": {
+      "key": "6603245a55ac08e5fa305ed0ef5da160ed39f9a0",
+      "desc": "add-activity"
+    },
+    "add-contact": {
+      "key": "4e01cbabf6d40f5be54c40b74e4656bf72e77718",
+      "desc": "add-contact"
+    },
+    "add-document": {
+      "key": "39276ef38b2e219a387c35a485135210520e9820",
+      "desc": "add-document"
+    },
+    "add-employee": {
+      "key": "1a05e535e5d208566edb4173a1f16373048035c3",
+      "desc": "add-employee"
+    },
+    "add-filter": {
+      "key": "50aa623767031fbb7187e95e518fd0e17ff36d6f",
+      "desc": "add-filter"
+    },
+    "add-folder": {
+      "key": "12642e9901dcc7fec98302ffca57e1ea2782e685",
+      "desc": "add-folder"
+    },
+    "add-photo": {
+      "key": "bc6c1c2a3cfd936cb6ed5987f81d396668e1c3b2",
+      "desc": "add-photo"
+    },
+    "add-process": {
+      "key": "a70082dbcf16af08d7b0f8a588a3cf04fa5b079d",
+      "desc": "add-process"
+    },
+    "add-product": {
+      "key": "962204b363363357f757361650bce3ce478879f6",
+      "desc": "add-product"
+    },
+    "edit-outside": {
+      "key": "897ec016a87cbd40c925b2c19040161152ed7517",
+      "desc": "edit-outside"
+    },
+    "employee-approvals": {
+      "key": "86924dbff70fa9edff8b87113934f4c205176e53",
+      "desc": "employee-approvals"
+    },
+    "employee-rejections": {
+      "key": "1159a351d7437ee204cf2153dcabcf995b8e97f2",
+      "desc": "employee-rejections"
+    },
+    "message-error": {
+      "key": "6afd3cfb251405759c6a0f6ce7759382d74ab9d8",
+      "desc": "message-error"
+    },
+    "message-success": {
+      "key": "5d9517735448d239973d3a558279729fe1ddcd92",
+      "desc": "message-success"
+    },
+    "message-warning": {
+      "key": "278484f7d5427e835156456999b113303671fba9",
+      "desc": "message-warning"
+    },
+    "status-completed": {
+      "key": "a3e956624fe05238fe06bd26aedab6cf08264aa8",
+      "desc": "status-completed"
+    },
+    "fob-watch": {
+      "key": "e0878c1df61b19c62f491ffd6d31409423a2bd99",
+      "desc": "fob-watch"
+    },
+    "high-priority": {
+      "key": "06426780af571d9aab605dd2c2bb919ccdbaec6b",
+      "desc": "high-priority"
+    },
+    "horizontal-grip": {
+      "key": "5aebe17cc58de146aa741621f351cf0d48c3115c",
+      "desc": "horizontal-grip"
+    },
+    "lateness": {
+      "key": "4c744203560382c449e21113c7932c9eff196bc1",
+      "desc": "lateness"
+    },
+    "time-overtime": {
+      "key": "6a24332b76b92ada411755201883e2bfb3aa9c0b",
+      "desc": "time-overtime"
+    },
+    "vertical-grip": {
+      "key": "125df2a42892c543ef281c04c94b2b22b57d469e",
+      "desc": "vertical-grip"
+    },
+    "sys-enter-2": {
+      "key": "a69b0f2584613dc61fbeac927db00f6b576a10eb",
+      "desc": "sys-enter-2"
+    },
+    "sys-cancel-2": {
+      "key": "463e30f6794f40e5923c23b196c0f017aa2122e2",
+      "desc": "sys-cancel-2"
+    },
+    "away": {
+      "key": "72ecaf34c473692b0a3806c2b4ec2248c5ff85c3",
+      "desc": "away"
+    },
+    "busy": {
+      "key": "d7b9fe3a9b64b4eb1bf82548ec5ca54b505b848d",
+      "desc": "busy"
+    }
+  }
+}
