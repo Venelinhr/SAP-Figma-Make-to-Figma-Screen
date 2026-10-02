@@ -34,27 +34,6 @@ Use the **share link**, not a published `*.figma.site` link. A published link sk
 ## What the extension clicks
 The extension does not only look at the first screen. It **uses your Make app like a person would**: it clicks around, finds the other screens and popups, reads each one, and sends everything to the plugin. The plugin then builds **every screen it found** as its own frame in Figma.
 
-How it works, step by step:
-1. It opens your Make app in your own Chrome and reads the main screen.
-2. It looks for things that lead somewhere else, and clicks them one by one:
-   - **Side navigation** items (they lead to other screens)
-   - **Tabs** (also the tabs inside a popup, for example "History")
-   - **Table rows** (they open a detail popup)
-   - **Dropdowns** and **date pickers** (they open a list or a calendar)
-   - **Toolbar buttons** such as sort, settings, help, user menu
-   - **KPI cards** (they can lead to a detail view)
-3. After each click it waits until the screen stops changing, then reads the new screen or popup.
-4. It goes back and tries the next item. It stops after about 85 seconds or 20 clicks.
-5. It sends all the screens it found to the plugin. You get one Figma frame per screen, popup and tab.
-
-Rules for the clicks:
-- **Safe only.** It never presses Save, Delete, Send, Submit, Approve or similar buttons. It will not change your data.
-- **No repeats.** For a table, it opens one row for each different status value (for example one "Error", one "Warning"), not every row.
-- **Your Chrome must stay in front.** A hidden tab or an unfocused window does not open popups.
-- Apps built with React or web components are read in their open state only. The clicking is built for SAPUI5 apps.
-
-The plugin shows a warning list at the end. If a screen was not found, the list says so.
-
 ## After you change code
 ```bash
 node make-figma/build.js
